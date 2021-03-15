@@ -18,7 +18,6 @@ body {
 main {
   margin-left: 5rem;
 }
-
 /*
   Scroll bar
 */
@@ -32,4 +31,10 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background: #6649b8;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    margin: 0;
+  }
 }

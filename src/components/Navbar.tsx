@@ -1,12 +1,15 @@
 import React from "react";
 import "../css/Navbar.css";
+
+import { NavLink } from "react-router-dom";
+
 export default function Navbar() {
   return (
     <nav className="navbar">
       <ul className="navbar-nav">
         <li className="logo">
-          <a href="/#" className="nav-link">
-            <span className="link-text">Cats</span>
+          <NavLink to="/" className="nav-link">
+            <span className="link-text">Raid</span>
             <svg
               aria-hidden="true"
               focusable="false"
@@ -30,11 +33,11 @@ export default function Navbar() {
                 ></path>
               </g>
             </svg>
-          </a>
+          </NavLink>
         </li>
 
         <li className="nav-item">
-          <a href="/#" className="nav-link">
+          <NavLink to="/devblog" className="nav-link">
             <svg
               aria-hidden="true"
               focusable="false"
@@ -59,11 +62,11 @@ export default function Navbar() {
               </g>
             </svg>
             <span className="link-text">Cats</span>
-          </a>
+          </NavLink>
         </li>
 
         <li className="nav-item">
-          <a href="/#" className="nav-link">
+          <NavLink to="/about" className="nav-link">
             <svg
               aria-hidden="true"
               focusable="false"
@@ -88,11 +91,11 @@ export default function Navbar() {
               </g>
             </svg>
             <span className="link-text">Aliens</span>
-          </a>
+          </NavLink>
         </li>
 
         <li className="nav-item">
-          <a href="/#" className="nav-link">
+          <NavLink to="/#" className="nav-link">
             <svg
               aria-hidden="true"
               focusable="false"
@@ -117,11 +120,11 @@ export default function Navbar() {
               </g>
             </svg>
             <span className="link-text">Space</span>
-          </a>
+          </NavLink>
         </li>
 
         <li className="nav-item">
-          <a href="/#" className="nav-link">
+          <NavLink to="/#" className="nav-link">
             <svg
               aria-hidden="true"
               focusable="false"
@@ -146,7 +149,7 @@ export default function Navbar() {
               </g>
             </svg>
             <span className="link-text">Shuttle</span>
-          </a>
+          </NavLink>
         </li>
       </ul>
     </nav>
