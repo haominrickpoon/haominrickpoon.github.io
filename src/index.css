@@ -6,10 +6,10 @@
   --bg-primary: #23232e;
   --bg-secondary: #141418;
   --transition-speed: 600ms;
+  color: var(--text-primary);
 }
 
 body {
-  color: black;
   background-color: #17141d;
   margin: 0;
   padding: 0;
@@ -17,6 +17,14 @@ body {
 
 main {
   margin-left: 5rem;
+}
+
+.title {
+  margin: 1rem 0.5rem;
+}
+
+.content {
+  text-indent: 1rem;
 }
 
 /*

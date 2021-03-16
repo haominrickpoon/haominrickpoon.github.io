@@ -3,6 +3,7 @@ import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 
 import LandingPage from "./pages/LandingPage";
 import BlogPage from "./pages/BlogPage";
+import AboutPage from "./pages/AboutPage";
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
         <Route path="/devblog">
           <BlogPage />
         </Route>
-        <Route path="/about"></Route>
+        <Route path="/about">
+          <AboutPage />
+        </Route>
       </Switch>
     </Router>
   );
