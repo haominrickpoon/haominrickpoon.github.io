@@ -81,7 +81,6 @@
 .logo-text {
   display: inline;
   position: absolute;
-  left: -999px;
   transition: var(--transition-speed);
 }
 
